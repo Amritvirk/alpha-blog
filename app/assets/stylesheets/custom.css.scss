@@ -27,3 +27,36 @@ $navbar-default-bg: #008000;
   color: #fff;
   text-decoration: none;
 }
+
+.jumbotron {
+  background-image: asset-url('alpha_background.jpg');
+  background-size: cover;
+  height: 600px;
+}
+
+.btn {
+  background-color: green;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid green;
+}
+
+footer a:hover{
+  color: #222;
+}
+footer small{
+  float: left;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
